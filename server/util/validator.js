@@ -28,7 +28,7 @@ exports.validateSignupData = (data) => {
     if (isEmpty(data.month)) errors.birth = '-Invalid Birthdate';
     if (isEmpty(data.day)) errors.birth = '-Invalid Birthdate';
     if (isEmpty(data.year)) errors.birth = '-Invalid Birthdate';
-    if (!data.check1) errors.check1 = '-You must sccept the terms & conditions and privacy policy';
+    if (!data.check1) errors.check1 = '-You must accept the terms & conditions and privacy policy';
 
     return {
             valid: Object.keys(errors).length === 0 ? true : false,
