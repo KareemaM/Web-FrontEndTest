@@ -1,0 +1,29 @@
+To get the app running please follow the below setps
+
+@root folder
+
+npm install 
+npm start
+
+and you will be redirected to this landing page.
+
+http://localhost:3000/login
+
+
+The form fields errors/validations  are stored and retrieved  from the database considering easy maintenance , to avoid UI builds.
+
+please check the server folder  and pdf to follow the instructions  to create a  user table to get the errors  Highlighted on UI
+
+(server/util/validator.js ) --- shows the validation texts
+
+also below are the  additional urls to route to
+
+
+http://localhost:3000/signup
+
+http://localhost:3000/products 
+
+
+ 
+
+
